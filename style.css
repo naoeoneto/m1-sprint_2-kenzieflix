@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    margin-top: 35px;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    background-color: black;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.inicio {
+    display: flex;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    line-height: 42px;
+    margin-top: 50px;
+}
+
+.cards__usuarios {
+    display: flex;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 61px;
+    margin-bottom: 16px;
+    justify-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border: tr;
+}
+
+.card img {
+    width: 160px;
+    height: 160px;
+    border-radius: 8px;
+    border: solid 3px transparent;
+    transition: 0.25s;
+}
+
+p {
+    color: #9c9c9c;
+    text-align: center;
+    transition: 0.25s;
+    margin-top: 10px;
+}
+
+button {
+   display: flex;
+   justify-content: center;
+   justify-items: center;
+   box-sizing: border-box;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 50px;
+   padding: 20px 60px;
+   background-color: #000000;
+   border: solid 2px #FFFFFF;
+   border-radius: 8px;
+   color: white;
+   font-size: 16px;
+}
+
+.card:hover p {
+    transition: 0.25s;
+    color: white;
+    font-weight: bolder;
+}
+
+.cards__usuarios .card img:hover {
+    transition: 0.25s;
+    border: solid 3px #FFFFFF;
+    background-color: #141414;
+}
+
+.botao:hover {
+    background-color: white;
+    color: #000000;
+    transition: 0.25s;
+    font-weight: bold;
+}
